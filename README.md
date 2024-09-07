@@ -3,6 +3,7 @@ This is the library which handles the behaviour of the Counter-Strike Bomb Prop.
 Arduino IDE and load the example sketch.
 
 [Here you can see how I build it](https://youtu.be/Wk2TkWnkzZE)
+![image](./extras/image.jpg)
 
 # Components needed
 - 16x1 Display with I2C Module

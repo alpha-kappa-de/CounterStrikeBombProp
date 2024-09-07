@@ -2,7 +2,7 @@
 This is the library which handles the behaviour of the Counter-Strike Bomb Prop. Just install this library in your 
 Arduino IDE and load the example sketch.
 
-[Here you can see how I build it](https://www.youtube.com/watch?v=<VIDEO_ID>)
+[Here you can see how I build it](https://youtu.be/Wk2TkWnkzZE)
 
 # Components needed
 - 16x1 Display with I2C Module

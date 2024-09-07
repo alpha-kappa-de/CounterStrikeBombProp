@@ -1,0 +1,141 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+# Example: MyDatatype	KEYWORD1
+#######################################
+# CSDisplay
+AnimationLCD	KEYWORD1
+CSDisplay	KEYWORD1
+
+# CSKeypad
+CSKeypad	KEYWORD1
+
+# CSSound
+CSSound	KEYWORD1
+
+# CSSwitch
+CSSwitch	KEYWORD1
+
+# CSYellowLED
+CSYellowLED	KEYWORD1
+
+
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+# Example: myMethod	KEYWORD2
+#######################################
+# CounterStrikeBombProp
+DebugPrint	KEYWORD2
+DebugPrintln	KEYWORD2
+DebugPrintSeperatorLine	KEYWORD2
+DebugPrintWithPadding	KEYWORD2
+DebugPrintConfigHeader	KEYWORD2
+DebugPrintConfigLine	KEYWORD2
+DebugPrintConfig	KEYWORD2
+
+# CSDisplay
+tickBombCodeAnimation	KEYWORD2
+tickPlantedAnimation	KEYWORD2
+tickDefusingAnimation	KEYWORD2
+printCharToDisplay	KEYWORD2
+setup	KEYWORD2
+activateBacklight	KEYWORD2
+deactivateBacklight	KEYWORD2
+clearDisplay	KEYWORD2
+startDisplayBombCodeAnimation	KEYWORD2
+startPlantedAnimation	KEYWORD2
+startDefusingAnimation	KEYWORD2
+stopAnimation	KEYWORD2
+tick	KEYWORD2
+addToBombCode	KEYWORD2
+clearBombCode	KEYWORD2
+
+# CSKeypad
+enqueue	KEYWORD2
+dequeue	KEYWORD2
+setup	KEYWORD2
+tick	KEYWORD2
+getButton	KEYWORD2
+hasButton	KEYWORD2
+resetQueue	KEYWORD2
+setAllowedToEnqueue	KEYWORD2
+isAnyKeyPressed	KEYWORD2
+
+# CSSound
+setup	KEYWORD2
+tick	KEYWORD2
+beepBuzzer	KEYWORD2
+playSound	KEYWORD2
+playSoundInit	KEYWORD2
+playSoundRadioBombPlanted	KEYWORD2
+playSoundRadioBombTickingDown	KEYWORD2
+playSoundBeforeExplosion	KEYWORD2
+playSoundExplosionTerWin	KEYWORD2
+playSoundDisarmStart	KEYWORD2
+playSoundBombDefusedCTWin	KEYWORD2
+playSoundSilence	KEYWORD2
+stopSound	KEYWORD2
+
+# CSSwitch
+setup	KEYWORD2
+tick	KEYWORD2
+setAllowUpdate	KEYWORD2
+
+# CSYellowLED
+resetFields	KEYWORD2
+setup	KEYWORD2
+activateAnimation	KEYWORD2
+stopAnimation	KEYWORD2
+tick	KEYWORD2
+
+
+
+
+
+######################################
+# Constants (LITERAL1)
+# EXAMPLE: MY_CONSTANT	LITERAL1
+#######################################
+# CounterStrikeBombProp
+SERIAL_DEBUG	LITERAL1
+SERIAL_DEBUG_BAUD_RATE	LITERAL1
+CONFIG_PADDING	LITERAL1
+PREFIX_CS_BOMB	LITERAL1
+PREFIX_DISPLAY	LITERAL1
+PREFIX_KEYPAD	LITERAL1
+PREFIX_SOUND	LITERAL1
+PREFIX_BUZZER	LITERAL1
+PREFIX_SWITCH	LITERAL1
+PREFIX_YELLOW_LED	LITERAL1
+CONFIG_VARIABLE_PREFIX_BUZZER	LITERAL1
+CONFIG_VARIABLE_PREFIX_LED	LITERAL1
+CONFIG_VARIABLE_PREFIX_SWITCH	LITERAL1
+CONFIG_VARIABLE_PREFIX_DISPLAY	LITERAL1
+CONFIG_VARIABLE_PREFIX_KEYPAD	LITERAL1
+CONFIG_VARIABLE_PREFIX_MP3	LITERAL1
+CONFIG_VARIABLE_PREFIX_SOUND	LITERAL1
+STR_PLAY_SOUND	LITERAL1
+STR_NOT_PLAY_SOUND	LITERAL1
+STR_INITIALIZED	LITERAL1
+
+# CSDisplay
+ANIMATION_LCD_NONE	LITERAL1
+ANIMATION_LCD_BOMB_CODE	LITERAL1
+ANIMATION_LCD_PLANTED	LITERAL1
+ANIMATION_LCD_DEFUSING	LITERAL1
+PLANTED_ANIM_DURATION_PER_STATE	LITERAL1
+DEFUSING_CHAR_ANIM_DURATION	LITERAL1
+DEFUSING_ANIM_DURATION	LITERAL1
+BOMB_CODE_LENGTH	LITERAL1
+FLIPPED_CHAR_1	LITERAL1
+FLIPPED_CHAR_2	LITERAL1
+FLIPPED_CHAR_3	LITERAL1
+FLIPPED_CHAR_4	LITERAL1
+FLIPPED_CHAR_5	LITERAL1
+FLIPPED_CHAR_7	LITERAL1

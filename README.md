@@ -37,3 +37,19 @@ I bought the keypad from aliexpress but couldn't find the pinout so I had to fig
 
 # Wiring
 ![Wiring](./extras/wiring.png)
+
+# Audio tracks
+I can't upload the audio tracks due to potential copyright reasons. You can extract them from the game yourself. Here is a small tutorial: https://www.youtube.com/watch?v=YFKf5walh84
+
+Here is a list with the description of the audio files:
+
+| Name in .ino                     | ID in .ino | Description   |
+|----------------------------------|------------|---------------|
+|  mp3SoundIdInit                  | 1          | when the switch is toggled            |
+|  mp3SoundIdRadioBombPlanted      | 2          | when code is entered completely            |
+|  mp3SoundIdRadioBombTickingDown  | 3          | plays some seconds before explosion            |
+|  mp3SoundIdBeforeExplosion       | 4          | high pitch sound right before detonation            |
+| mp3SoundIdExplosionTerWin        | 5          | actual explosion sound            |
+| mp3SoundIdDisarmStart            | 6          | defuse begin sound            |
+| mp3SoundIdBombDefusedCTWin       | 7          | defuse finished sound            |
+| mp3SoundIdSilence                | 8          | silence, which plays between other sounds (it's faster to switch tracks than to start a new one. just put a silent audio track of some minutes here)            |
